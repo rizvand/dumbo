@@ -6,16 +6,16 @@ Simple python package
 ## How to install
 
 ```
-pip install git+https://github.com/rizvand/dumbo.git
+pip install -e git+https://github.com/rizvand/dumbo.git#egg=dumbo
 ```
 Install from specific branch
 
 ```
-pip install git+https://github.com/rizvand/dumbo.git@<branch_name>
+pip install git+https://github.com/rizvand/dumbo.git@<branch_name>#egg=dumbo
 ```
 Ex:
 ```
-pip install git+https://github.com/rizvand/dumbo.git@master
+pip install git+https://github.com/rizvand/dumbo.git@master#egg=dumbo
 ```
 
 
