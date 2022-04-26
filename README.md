@@ -8,6 +8,16 @@ Simple python package
 ```
 pip install git+https://github.com/rizvand/dumbo.git
 ```
+Install from specific branch
+
+```
+pip install git+https://github.com/rizvand/dumbo.git@<branch_name>
+```
+Ex:
+```
+pip install git+https://github.com/rizvand/dumbo.git@master
+```
+
 
 ## Usage
 ```
