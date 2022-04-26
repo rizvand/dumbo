@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
  
 setuptools.setup(
     package_dir={"": "dumbo"},
-    packages=["dumbo"],
+    packages=setuptools.find_packages("dumbo"),
     long_description=long_description,
     install_requires= [
         "setuptools>=40",
